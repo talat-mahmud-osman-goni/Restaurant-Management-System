@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{55E63992-6732-4DEC-A1C0-978815EECA26}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KFC_RMS</RootNamespace>
+    <AssemblyName>KFC RMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConnectionString.cs" />
+    <Compile Include="Forms\Category\CategorySelectionUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Category\CategorySelectionUI.Designer.cs">
+      <DependentUpon>CategorySelectionUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Client\ClientInfoUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Client\ClientInfoUI.Designer.cs">
+      <DependentUpon>ClientInfoUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Company\CompanyInfoUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Company\CompanyInfoUI.Designer.cs">
+      <DependentUpon>CompanyInfoUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Expenditure\ExpenditureUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Expenditure\ExpenditureUI.Designer.cs">
+      <DependentUpon>ExpenditureUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Items\ItemSelectionUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Items\ItemSelectionUI.Designer.cs">
+      <DependentUpon>ItemSelectionUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Payment\SalaryPaymentUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Payment\SalaryPaymentUI.Designer.cs">
+      <DependentUpon>SalaryPaymentUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Product\ProductInfoUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Product\ProductInfoUI.Designer.cs">
+      <DependentUpon>ProductInfoUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Purchase\PurchaseUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Purchase\PurchaseUI.Designer.cs">
+      <DependentUpon>PurchaseUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Report\CategoryRecordUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Report\CategoryRecordUI.Designer.cs">
+      <DependentUpon>CategoryRecordUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Report\ClientRecordUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Report\ClientRecordUI.Designer.cs">
+      <DependentUpon>ClientRecordUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Report\CompanyRecordUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Report\CompanyRecordUI.Designer.cs">
+      <DependentUpon>CompanyRecordUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Report\ExpenditureRecordUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Report\ExpenditureRecordUI.Designer.cs">
+      <DependentUpon>ExpenditureRecordUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Report\ItemSelectionRecordUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Report\ItemSelectionRecordUI.Designer.cs">
+      <DependentUpon>ItemSelectionRecordUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Report\PrintableReport\PrintableSaleVautcher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Report\PrintableReport\PrintableSaleVautcher.Designer.cs">
+      <DependentUpon>PrintableSaleVautcher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Report\ProductRecordUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Report\ProductRecordUI.Designer.cs">
+      <DependentUpon>ProductRecordUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Report\PurchaseRecordUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Report\PurchaseRecordUI.Designer.cs">
+      <DependentUpon>PurchaseRecordUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Report\SalaryPaymentRecordUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Report\SalaryPaymentRecordUI.Designer.cs">
+      <DependentUpon>SalaryPaymentRecordUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Report\SaleRecordUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Report\SaleRecordUI.Designer.cs">
+      <DependentUpon>SaleRecordUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Report\StaffRecordUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Report\StaffRecordUI.Designer.cs">
+      <DependentUpon>StaffRecordUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sale\SaleUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sale\SaleUI.Designer.cs">
+      <DependentUpon>SaleUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Staff\StaffInfoUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Staff\StaffInfoUI.Designer.cs">
+      <DependentUpon>StaffInfoUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KFCDATASET.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KFCDATASET.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OpeningForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpeningForm.Designer.cs">
+      <DependentUpon>OpeningForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Category\CategorySelectionUI.resx">
+      <DependentUpon>CategorySelectionUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Client\ClientInfoUI.resx">
+      <DependentUpon>ClientInfoUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Company\CompanyInfoUI.resx">
+      <DependentUpon>CompanyInfoUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Expenditure\ExpenditureUI.resx">
+      <DependentUpon>ExpenditureUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Items\ItemSelectionUI.resx">
+      <DependentUpon>ItemSelectionUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Payment\SalaryPaymentUI.resx">
+      <DependentUpon>SalaryPaymentUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Product\ProductInfoUI.resx">
+      <DependentUpon>ProductInfoUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Purchase\PurchaseUI.resx">
+      <DependentUpon>PurchaseUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report\CategoryRecordUI.resx">
+      <DependentUpon>CategoryRecordUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report\ClientRecordUI.resx">
+      <DependentUpon>ClientRecordUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report\CompanyRecordUI.resx">
+      <DependentUpon>CompanyRecordUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report\ExpenditureRecordUI.resx">
+      <DependentUpon>ExpenditureRecordUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report\ItemSelectionRecordUI.resx">
+      <DependentUpon>ItemSelectionRecordUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report\PrintableReport\PrintableSaleVautcher.resx">
+      <DependentUpon>PrintableSaleVautcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report\PrintableReport\SalesInvoice.rdlc" />
+    <EmbeddedResource Include="Forms\Report\ProductRecordUI.resx">
+      <DependentUpon>ProductRecordUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report\PurchaseRecordUI.resx">
+      <DependentUpon>PurchaseRecordUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report\SalaryPaymentRecordUI.resx">
+      <DependentUpon>SalaryPaymentRecordUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report\SaleRecord.rdlc" />
+    <EmbeddedResource Include="Forms\Report\SaleRecordUI.resx">
+      <DependentUpon>SaleRecordUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report\StaffRecordUI.resx">
+      <DependentUpon>StaffRecordUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sale\SaleUI.resx">
+      <DependentUpon>SaleUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Staff\StaffInfoUI.resx">
+      <DependentUpon>StaffInfoUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpeningForm.resx">
+      <DependentUpon>OpeningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="KFCDATASET.xsc">
+      <DependentUpon>KFCDATASET.xsd</DependentUpon>
+    </None>
+    <None Include="KFCDATASET.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KFCDATASET.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="KFCDATASET.xss">
+      <DependentUpon>KFCDATASET.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1024px-KFC_logo.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Forms\Stock\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background-Kfc4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="KFC_RMSdb.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="KFC_RMSdb_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>KFC_RMSdb.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\kfc-logo-logo-248694841.jpg" />
+    <None Include="Resources\10468062_847269351950872_1753003616142848681_n.jpg" />
+    <None Include="Resources\kfc-logo-logo-24869484.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

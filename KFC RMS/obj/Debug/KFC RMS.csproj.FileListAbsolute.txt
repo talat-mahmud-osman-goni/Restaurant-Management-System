@@ -1,0 +1,99 @@
+D:\Visual C #\Coding\KFC RMS\KFC RMS\bin\Debug\KFC RMS.exe.config
+D:\Visual C #\Coding\KFC RMS\KFC RMS\bin\Debug\KFC RMS.exe
+D:\Visual C #\Coding\KFC RMS\KFC RMS\bin\Debug\KFC RMS.pdb
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.OpeningForm.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Properties.Resources.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC RMS.csproj.GenerateResource.Cache
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC RMS.exe
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC RMS.pdb
+D:\Visual C #\Coding\KFC RMS\KFC RMS\bin\Debug\KFC_RMSdb.mdf
+D:\Visual C #\Coding\KFC RMS\KFC RMS\bin\Debug\KFC_RMSdb_log.ldf
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Category.CategorySelectionUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Client.ClientInfoUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Company.CompanyInfoUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Expenditure.ExpenditureUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Payment.SalaryPaymentUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Product.ProductInfoUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Purchase.PurchaseUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.CategoryRecordUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.ClientRecordUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.CompanyRecordUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.ExpenditureRecordUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.ProductRecordUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.PurchaseRecordUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.SalaryPaymentRecordUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.SaleRecordUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.StaffRecordUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Sale.SaleUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Staff.StaffInfoUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Items.ItemSelectionUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.ItemSelectionRecordUI.resources
+D:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC RMS.csprojResolveAssemblyReference.cache
+E:\Visual C #\Coding\KFC RMS\KFC RMS\bin\Debug\KFC RMS.exe.config
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC RMS.exe
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC RMS.pdb
+E:\Visual C #\Coding\KFC RMS\KFC RMS\bin\Debug\KFC_RMSdb.mdf
+E:\Visual C #\Coding\KFC RMS\KFC RMS\bin\Debug\KFC_RMSdb_log.ldf
+E:\Visual C #\Coding\KFC RMS\KFC RMS\bin\Debug\KFC RMS.exe
+E:\Visual C #\Coding\KFC RMS\KFC RMS\bin\Debug\KFC RMS.pdb
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC RMS.csprojResolveAssemblyReference.cache
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Category.CategorySelectionUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Client.ClientInfoUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Company.CompanyInfoUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Expenditure.ExpenditureUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Items.ItemSelectionUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Payment.SalaryPaymentUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Product.ProductInfoUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Purchase.PurchaseUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.CategoryRecordUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.ClientRecordUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.CompanyRecordUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.ExpenditureRecordUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.ItemSelectionRecordUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.ProductRecordUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.PurchaseRecordUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.SalaryPaymentRecordUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.SaleRecordUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.StaffRecordUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Sale.SaleUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Staff.StaffInfoUI.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.OpeningForm.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Properties.Resources.resources
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC RMS.csproj.GenerateResource.Cache
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\RdlCompile.cache
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\RdlCompile.compiled
+E:\Visual C #\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.PrintableReport.PrintableSaleVautcher.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\bin\Debug\KFC RMS.exe.config
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC RMS.exe
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC RMS.pdb
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\bin\Debug\KFC_RMSdb.mdf
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\bin\Debug\KFC_RMSdb_log.ldf
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\bin\Debug\KFC RMS.exe
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\bin\Debug\KFC RMS.pdb
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC RMS.csprojResolveAssemblyReference.cache
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Category.CategorySelectionUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Client.ClientInfoUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Company.CompanyInfoUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Expenditure.ExpenditureUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Items.ItemSelectionUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Payment.SalaryPaymentUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Product.ProductInfoUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Purchase.PurchaseUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.CategoryRecordUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.ClientRecordUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.CompanyRecordUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.ExpenditureRecordUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.ItemSelectionRecordUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.PrintableReport.PrintableSaleVautcher.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.ProductRecordUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.PurchaseRecordUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.SalaryPaymentRecordUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.SaleRecordUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Report.StaffRecordUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Sale.SaleUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Forms.Staff.StaffInfoUI.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.OpeningForm.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC_RMS.Properties.Resources.resources
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\KFC RMS.csproj.GenerateResource.Cache
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\RdlCompile.cache
+E:\Personal\Visual C#\Coding\KFC RMS\KFC RMS\obj\Debug\RdlCompile.compiled
